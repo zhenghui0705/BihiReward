@@ -1,0 +1,264 @@
+body {
+    position: relative;
+    width: 100%;
+    background: url('../images/bg.jpg') no-repeat center center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+a:hover{text-decoration:none !important;}
+/* logo */
+.logo{
+    margin: 0 .4rem;
+    height: 1.333333rem;
+    position: relative;
+}
+.logo_img{
+    margin-top: .266667rem;
+    height: .64rem;
+    width: 3.693333rem;
+}
+.live_img{
+    position: absolute;
+    right: 0;
+    width: .533333rem;
+    height: 1.626667rem;
+}
+/* content */
+.bihi_content{
+    width: 6.693333rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.bihi{
+    width: 1.253333rem;
+    height: 1.213333rem;
+}
+.bihi_info{
+    font-size: .426667rem;
+    margin-left: .133333rem;
+    color: #ffffff;
+}
+.login_content{
+    overflow: hidden;
+}
+.logo_text{
+    text-align: center;
+    font-size: .9067rem;
+    letter-spacing: .053333rem;
+    color: #ffffff;
+    text-shadow: #d47979 0.1em 0.1em 0.2em;
+    font-weight: 700;
+    margin-top: .44rem;
+}
+/* 邀请人数 */
+.rewa_info{
+    margin: 1rem auto 1rem;
+    width: 8rem;
+    overflow: hidden;
+    height: 4.5333rem;
+}
+.rewa_title{
+    color: #f13704;
+    font-size: .4267rem;
+    text-align: center;
+}
+.num_bg{
+    display: flex;
+    margin: .8rem 1.52rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.num_bg ul{
+    text-align: center;
+}
+.num_bg_num{
+    font-size: .8rem;
+    color: #f13704;
+    margin-bottom: .3067rem;
+}
+.num_bg_title{
+    font-size: .3733rem;
+    color: #f13704;
+}
+/* 活动时间 */
+.reward_time{
+    text-align: center;
+    font-size: .4267rem;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: .76rem;
+}
+.reward_friend{
+    margin-top: .4933rem;
+    line-height: .6133rem;
+    font-size: .48rem;
+    color: #fff3f3;
+    text-align: center
+}
+/* 邀请好友按钮 */
+.reward_content{
+    margin-top: .7067rem;
+}
+.reward_btn{
+    width: 4rem;
+    height: 1.0667rem;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background: #ffc002;
+    border-radius: .5333rem;
+    color: #ffffff;
+    font-size: .4267rem; 
+    line-height: 1.0667rem;
+}
+.p1{
+    color: #fff;
+    font-size: .373333rem;
+    margin-top: .533333rem;
+    text-align: center;
+}
+
+/* 活动规则 */
+.footer{
+    width: 9.04rem;
+    margin: .266667rem auto 0;
+    height: 10.666667rem;
+    background: url('../images/footer.png') no-repeat center center;
+    background-size: 9.093333rem 10.76rem;
+    border-radius: .106667rem;
+    margin-bottom: 1.44rem;
+    overflow: hidden;
+}
+.rule_title{
+    margin-top: .6rem;
+    text-align: center;
+    font-size: .426667rem;
+    color: #f2491a;
+}
+.rule_time{
+    width: 8rem;
+    height: .8rem;
+    background: #fa6632;
+    line-height: .8rem;
+    text-align: center;
+    margin: .48rem auto 0;
+    border-radius: .113333rem;
+    font-size: .373333rem;
+    color: #fff;
+}
+.rule_content{
+    margin: .483333rem .533333rem 0;
+    color: #ff5729;
+    font-size: .373333rem;
+}
+.rule_info{
+    line-height: .66rem;
+}
+/* bihi介绍 */
+.section{
+    margin: 0 auto;
+    position: relative;
+    width: 9.6rem;
+}
+.content_section{
+    margin: .573333rem auto 0;
+    background: url('../images/content_1.png') no-repeat center center;
+    background-size: 9.5467rem 5.9467rem;
+    width:  9.5467rem;
+    height: 5.9467rem;
+    overflow: hidden;
+}
+.content_section:last-child{
+    margin: .133333rem auto 0;
+    background: url('../images/content_2.png') no-repeat center center;
+    background-size: 9.0933rem 11.16rem;
+    height: 11.16rem;
+    width: 9.0933rem;
+}
+.bihi_title{
+    margin-top: .666667rem;
+    text-align: center;
+    color: #f13704;
+    font-size: .426667rem;
+}
+
+/* 每个介绍下面的线 */
+.bihi_border1{
+    width: 8.773333rem;
+    height: .96rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 5.444rem;
+}
+/* 邀请详情 */
+.reward_info{
+   margin: .48rem .4667rem 0;
+   max-height: 4rem;
+   overflow: hidden;
+}
+/* 共计奖励 */
+.tatal_content{
+    display: flex;
+    justify-content: space-between;
+    font-size: .4rem;
+    color: #ff5729;
+}
+.tatal_info{
+    margin-top: .7867rem;
+}
+.tatal_info li{
+    display: flex;
+    justify-content: space-between;
+    color: #ff5729;
+    font-size: .3733rem;
+    margin-bottom: .4267rem;
+}
+/* 待领取奖励 */
+.panding_content{
+    margin: .4467rem .26rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.panding_info{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.quali{
+    color: #ff5729;
+    font-size: .4rem;
+}
+.limit{
+    color: #ff5729;
+    font-size: .3733rem;
+    margin-top: .3467rem;
+}
+/* 已领取 */
+.draw{
+    background: #ffc002;
+    width: 2.6667rem;
+    height: .8rem;
+    line-height: .8rem;
+    display: block;
+    border-radius: .4rem;
+    text-align: center;
+    margin: .3133rem auto 0;
+    color: #ffffff;
+    font-size: .4267rem;
+}
+/* 未领取 */
+.undarw{
+    background: #cccccc;
+    width: 2.6667rem;
+    height: .8rem;
+    line-height: .8rem;
+    display: block;
+    border-radius: .4rem;
+    text-align: center;
+    margin: .4133rem auto 0;
+    color: #ffffff;
+    font-size: .4267rem;
+}
