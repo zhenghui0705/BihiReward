@@ -89,8 +89,15 @@ a:hover{text-decoration:none !important;}
     margin: 0 auto;
     margin-top: .76rem;
 }
+.reward_plan{
+    text-align: center;
+    font-size: .4567rem;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: .36rem;
+}
 .reward_friend{
-    margin-top: .4933rem;
+    margin-top: .3rem;
     line-height: .6133rem;
     font-size: .48rem;
     color: #fff3f3;
